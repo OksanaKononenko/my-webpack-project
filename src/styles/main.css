@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Amarna";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Amarna-Bold.ttf");
+}
+@font-face {
+  font-family: "Amarna";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Amarna-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Amarna;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 12.5px;
+}/*# sourceMappingURL=main.css.map */

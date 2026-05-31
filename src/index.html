@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza+</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+ 
+ <link rel="stylesheet" href="style.css">  
+
+ 
+</head>
+<body>
+  <!-- Header з логотипом і навігацією -->
+  <header>
+    <div class="logo">🍕 Pizza+</div>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#events">Events</a>
+      <a href="#about">About Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero секція з головним заголовком і кнопкою -->
+  <section class="hero">
+    <h1>Delicious Pizza Delivered Fast</h1>
+    <p>Fresh ingredients, hot taste, and quick service.</p>
+    <button>Order Now</button>
+  </section>
+
+
+<!-- Секція Menu -->
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-grid">
+    <!-- Карточка піци -->
+    <article class="pizza-card">
+      <img src="р1.svg" alt="Margherita Pizza">
+      <h3>Margherita</h3>
+      <p>Classic tomato, mozzarella & basil</p>
+      <span class="price">$8.99</span>
+      <button>Add to Cart</button>
+    </article>
+
+    <article class="pizza-card">
+      <img src="р1.svg" alt="Pepperoni Pizza">
+      <h3>Pepperoni</h3>
+      <p>Spicy pepperoni & mozzarella</p>
+      <span class="price">$9.99</span>
+      <button>Add to Cart</button>
+    </article>
+
+    <article class="pizza-card">
+      <img src="р1.svg" alt="Veggie Pizza">
+      <h3>Veggie</h3>
+      <p>Fresh vegetables & cheese</p>
+      <span class="price">$10.99</span>
+      <button>Add to Cart</button>
+    </article>
+  </div>
+</section>
+
+<!-- Секція Events -->
+<section class="events-section">
+  <h2 class="events-title">Events</h2>
+  <div class="events-grid" id="eventsGrid">
+
+
+    <div class="event-card" data-testid="event-card-1">
+      <div class="event-content">
+        <h3>HOW WE COOKING</h3>
+            <img src="p1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+    </div>
+
+    <div class="event-card" data-testid="event-card-2">
+      <div class="event-content">    <img src="р1.svg" alt="Veggie Pizza">
+        <h3>OUR BLOG</h3>
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+  <div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>    <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div> 
+      </div>
+
+<div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>    <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+
+<div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>       <img src="р1.svg" alt="Veggie Pizza"> <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+   <div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>    <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+<div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>    <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+
+<div class="event-card" data-testid="event-card-2">
+      <div class="event-content">
+        <h3>OUR BLOG</h3>    <img src="р1.svg" alt="Veggie Pizza">
+        <button class="event-btn">More</button>
+      </div>
+ 
+      </div>
+
+  </div>
+</section>
+
+<!-- Секція About Us -->
+<section id="about" class="about">
+  <div class="about-content">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        At Pizza+, we believe that every slice tells a story. Our chefs use only fresh ingredients and traditional recipes to bring you the authentic taste of Italy. Whether you dine in or order delivery, we promise warmth, flavor, and a smile with every pizza.
+      </p>
+      <button>Learn More</button>
+    </div>
+    <div class="about-image">
+      <img src="p1.svg" alt="Delicious Pizza">
+    </div>
+  </div>
+</section>
+
+<form id="regForm">
+  <input type="text" id="name" placeholder="Ім'я" required />
+  <input type="email" id="email" placeholder="Email" required />
+   
+
+  <input type="tel" id="phone" placeholder="+380 (__) ___-__-__" required />
+
+  <button type="submit">Відправити</button>
+</form>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h3>🍕 Pizza+</h3>
+      <p>Delicious pizza, fast delivery, and warm service.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📍 123 Pizza Street, Kyiv</p>
+      <p>📞 +380 44 123 4567</p>
+      <p>✉️ info@pizzaplus.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Pizza+. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="index.js"></script>  
+
+
+
+<!-- 
+ /<script src="main.js"></script>     потрібен коли не встановлений плагін html для роботи з модулями, 
+але в даному випадку не використовується, тому можна видалити -->
+</body>
+</html>
+ </div>

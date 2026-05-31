@@ -1,0 +1,49 @@
+
+// Головний файл стилів, який імпортує всі інші частини стилів. 
+// Тут ми також імпортуємо змінні, які будуть використовуватися
+ 
+@use "./variables" as *;// Імпортуємо змінні з файлу _variables.scss
+@use "./fonts";
+
+@use "./header";
+@use "./hero";
+
+@use "./footer";
+
+
+ .header {
+  background: $primary-color;
+
+  h1 {
+    color: $text-light;
+  }
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Amarna;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12.5px;
+}
+
+body {
+  background: #111;
+  color: white;
+
+  h1 {
+    color: red;
+  }
+}

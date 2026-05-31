@@ -1,0 +1,337 @@
+   
+   
+   
+   
+   p {
+  font-size: 18px;
+}body {
+      margin: 0;
+      font-family: "Amarna", 'Montserrat', sans-serif;
+      background: linear-gradient(#2b1d0e, #000); /* теплий фон */
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background: #ff7b00;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ff7b00;
+      transition: 0.3s;
+    }
+    .hero button:hover {
+      background: #ffa733;
+      box-shadow: 0 0 15px #ffa733;
+    }
+
+.menu {
+  padding: 60px 20px;
+  text-align: center;
+}
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ff7b00;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+.pizza-card {
+  background: #1c1208;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.pizza-card:hover {
+  transform: scale(1.05);
+}
+.pizza-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.pizza-card h3 {
+  margin: 15px 0 10px;
+}
+.price {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ffa733;
+}
+.pizza-card button {
+  background: #ff7b00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.pizza-card button:hover {
+  background: #ffa733;
+  box-shadow: 0 0 10px #ffa733;
+}
+
+.events {
+  padding: 60px 20px;
+  text-align: center;
+}
+.events h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ff7b00;
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+.event-card {
+  background: #1c1208;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+.event-card:hover {
+  transform: scale(1.05);
+}
+.event-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.event-card h3 {
+  margin: 15px 0 10px;
+}
+.event-card .date {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ffa733;
+}
+.event-card button {
+  background: #ff7b00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.event-card button:hover {
+  background: #ffa733;
+  box-shadow: 0 0 10px #ffa733;
+}
+
+.events {
+  padding: 60px 20px;
+  text-align: center;
+}
+.events h2 {
+  font-size: 2.5rem;
+  color: #ff7b00;
+  margin-bottom: 10px;
+}
+.events p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+.event-card {
+  position: relative;
+  background: #1c1208;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.event-card:hover {
+  transform: scale(1.05);
+}
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.event-card h3 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.event-card button {
+  background: #ff7b00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.event-card button:hover {
+  background: #ffa733;
+  box-shadow: 0 0 10px #ffa733;
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 20px;
+  padding: 40px;
+  background-color: #1a0f0a; /* Темний фон з макету */
+}
+
+.event-card {
+  background: #2d1b12;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Створення ефекту різного розміру карток */
+.event-card:nth-child(1) { grid-column: span 1; grid-row: span 1; }
+.event-card:nth-child(2) { grid-column: span 1; grid-row: span 2; }
+
+.event-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(255, 102, 0, 0.2);
+}
+
+.event-btn {
+  background: #ff6600;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.about {
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1c1208;
+}
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  gap: 40px;
+}
+.about-text {
+  flex: 1 1 400px;
+  color: #fff;
+}
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #ff7b00;
+  margin-bottom: 20px;
+}
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+.about-text button {
+  background: #ff7b00;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.about-text button:hover {
+  background: #ffa733;
+  box-shadow: 0 0 10px #ffa733;
+}
+.about-image {
+  flex: 1 1 400px;
+}
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.3);
+}
+
+.footer {
+  background: #0d0d0d;
+  color: #fff;
+  padding: 40px 20px;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.footer h3, .footer h4 {
+  color: #ff7b00;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin: 8px 0;
+}
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-links a:hover {
+  color: #ffa733;
+}
+.footer-contact p, .footer-social a {
+  color: #ccc;
+}
+.footer-social a {
+  text-decoration: none;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.footer-social a:hover {
+  color: #ffa733;
+}
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+
+
+ 
