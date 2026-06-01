@@ -1,13 +1,15 @@
- {
+{
   "name": "my-webpack-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
+    "start1": "webpack serve --mode development",
+    "start": "serve -s .",
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "serve": "^14.0.0",
     "webpack": "^5.107.2",
     "webpack-cli": "^7.0.3"
   },
@@ -20,3 +22,4 @@
     "webpack-dev-server": "^5.2.4"
   }
 }
+ 
