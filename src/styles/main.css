@@ -2,14 +2,34 @@
   font-family: "Amarna";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/Amarna-Bold.ttf");
+  src: url("../fonts/Amarna/static/Amarna-Bold.ttf");
 }
 @font-face {
   font-family: "Amarna";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Amarna-Regular.ttf");
+  src: url("../fonts/Amarna/static/Amarna-Regular.ttf");
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.header {
+  background: #0077ff;
+}
+.header h1 {
+  color: #ffffff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,4 +46,12 @@ h1 {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 12.5px;
+}
+
+body {
+  background: #111;
+  color: white;
+}
+body h1 {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
