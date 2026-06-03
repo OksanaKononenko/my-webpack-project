@@ -5,10 +5,9 @@
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "start1": "webpack serve --mode development",
-  "start": "serve -s dist -l $PORT", 
+  "start": "serve -s dist", 
   "build": "webpack --mode production"
 },
- 
   "dependencies": {
     "serve": "^14.0.0",
     "webpack": "^5.107.2",
