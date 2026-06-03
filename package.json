@@ -5,9 +5,9 @@
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "start1": "webpack serve --mode development",
-  "start": "serve -s dist", 
+  "start": "serve -s dist -l tcp://0.0.0.0:$PORT",
   "build": "webpack --mode production"
-},
+},git add package.json
   "dependencies": {
     "serve": "^14.0.0",
     "webpack": "^5.107.2",
